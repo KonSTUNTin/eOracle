@@ -1,0 +1,520 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="30.66016324294401" scrolly="-510.2161044861746" scale="0.5455135342971744">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="A+x;Oi:9wB|o6!+RSm6r">transition_list</variable>
+      <variable id="kxwk|Xi7GIJXx{Om_Sa]">x_illustration</variable>
+      <variable id="Xbba091jAVYIOJJ6(+u_">time</variable>
+      <variable id="4TX=iA]u=)l@FY@7(cb%">step</variable>
+      <variable id="s?T*~KO1~.qVcg6d~RN2">transition</variable>
+      <variable id="#dPhkcTEj)B:(ejiOG3`">list_text</variable>
+      <variable id="GF%Ia5vq#=bk-u0:,OqQ">coins</variable>
+      <variable id="Tm)`[0Xbz`sr0?Lyhj?u">frames_text</variable>
+      <variable id="Mhi6#SYW$=;ROWtc2NP9">frames</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="]I%iO1=WM1XLc=0ARh2N" x="270" y="230">
+      <field name="NAME">set_center</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="variables_set" id="h^j+-Ln1R%:KWn]He$@]">
+          <field name="VAR" id="kxwk|Xi7GIJXx{Om_Sa]">x_illustration</field>
+          <value name="VALUE">
+            <block type="math_number" id="l_ToF#}grMA+s%!g3TT`">
+              <field name="NUM">0.45</field>
+            </block>
+          </value>
+          <next>
+            <block type="setObjTransform" id="dYp,vR|e@qu[6JUcJg%K">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usevectorslot="false" useworldspace="false"></mutation>
+              <field name="MODE">position</field>
+              <field name="OFFSET">FALSE</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="?.Ux]PDh@nOl^Cf_KEKa">
+                  <field name="FIELDNAME">adaptive_center</field>
+                </shadow>
+              </value>
+              <value name="X">
+                <block type="variables_get" id="GadF!ToR#A|S2)8K|@m_">
+                  <field name="VAR" id="kxwk|Xi7GIJXx{Om_Sa]">x_illustration</field>
+                </block>
+              </value>
+              <value name="Y">
+                <block type="math_number" id="I+ORcc`dN,|F55|QUty^">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+              <value name="Z">
+                <block type="math_number" id="0I!4j/`P#jFVm8;h*Op5">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="dR3F6~xYsW%,+d]cd=6_" x="290" y="330">
+      <field name="NAME">init</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="variables_set" id="Plkt#b}wjK6dGEQ^G_}#">
+          <field name="VAR" id="Xbba091jAVYIOJJ6(+u_">time</field>
+          <value name="VALUE">
+            <block type="math_number" id="i]5|lxdBe7?2$Lz|Yl/e">
+              <field name="NUM">0</field>
+            </block>
+          </value>
+          <next>
+            <block type="variables_set" id="F9,%Us33xdvXUlb%1Yy:">
+              <field name="VAR" id="4TX=iA]u=)l@FY@7(cb%">step</field>
+              <value name="VALUE">
+                <block type="math_number" id="k6ZM9x5[IXU-H{drY!{y">
+                  <field name="NUM">0</field>
+                </block>
+              </value>
+              <next>
+                <block type="variables_set" id="d?F;PBU%MjB!V@l;?r,u">
+                  <field name="VAR" id="s?T*~KO1~.qVcg6d~RN2">transition</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="+[9E1ta^l6[[~w@^%s^.">
+                      <field name="NUM">0</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="variables_set" id="d=S/=!a$/h,xCyE#{[ge">
+                      <field name="VAR" id="#dPhkcTEj)B:(ejiOG3`">list_text</field>
+                      <value name="VALUE">
+                        <block type="textMultiline" id="-P66K@c+21`chRZ`dS2^">
+                          <field name="HIGHLIGHT_MODE">text</field>
+                          <field name="TEXT" editor-height="5" editor-width="803.9810004751173">logo.002,logo.004,logo.005,logo.006,logo.007,logo.008,logo.009,logo.010,logo.011,logo.012,logo.013,logo.014,logo.015,logo.016,logo.017,logo.018,logo.019,logo.020,logo.021,logo.022,logo.023,logo.024,logo.025,logo.026,logo.027,logo.028,logo.029,logo.030,logo.031,logo.032,logo.033,logo.034,logo.035,logo.036,logo.037,logo.038,logo.039,logo.040,logo.041,logo.042,logo.043,logo.044,logo.045,logo.046,logo.047,logo.048,logo.049,logo.050,logo.051,logo.052,logo.053,logo.054,logo.055,logo.056,logo.057,logo.058,logo.059,logo.060,logo.061,logo.062,logo.063,logo.064,logo.065,logo.066,logo.067,logo.068,logo.069,logo.070,logo.071,logo.072,logo.073,logo.074,logo.075,logo.076,logo.077,logo.078,logo.079,logo.080,logo.081,logo.082,logo.083,logo.084,logo.085,logo.086,logo.087,logo.088,logo.089,logo.090,logo.091,logo.092,logo.093,logo.094,logo.095,logo.096,logo.097,logo.098,logo.099,logo.100,&amp;#10;</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="variables_set" id="bWfgNg%JlddAe)x,z#q@">
+                          <field name="VAR" id="Tm)`[0Xbz`sr0?Lyhj?u">frames_text</field>
+                          <value name="VALUE">
+                            <block type="textMultiline" id="(=b=/i/w;n4L0^.`$j+j">
+                              <field name="HIGHLIGHT_MODE">text</field>
+                              <field name="TEXT" editor-height="5" editor-width="803.9810004751173">0,140,208,300,400,440,480,600</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="variables_set" id="Tn8Duwh~V`MZ5kR9..HT">
+                              <field name="VAR" id="GF%Ia5vq#=bk-u0:,OqQ">coins</field>
+                              <value name="VALUE">
+                                <block type="lists_split" id="+,L#wPD95NpPEeDi)PDE">
+                                  <mutation mode="SPLIT"></mutation>
+                                  <field name="MODE">SPLIT</field>
+                                  <value name="INPUT">
+                                    <block type="variables_get" id="N{-m8vJwVi,/Nk0pEw#e">
+                                      <field name="VAR" id="#dPhkcTEj)B:(ejiOG3`">list_text</field>
+                                    </block>
+                                  </value>
+                                  <value name="DELIM">
+                                    <block type="text" id="8tNp|y1fDMvg(@kOvS5S">
+                                      <field name="TEXT">,</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="variables_set" id="75Ji]|J2:eIS^,IKyYx{">
+                                  <field name="VAR" id="Mhi6#SYW$=;ROWtc2NP9">frames</field>
+                                  <value name="VALUE">
+                                    <block type="lists_split" id="pB/i0D5!o#5,s/*Zu8?0">
+                                      <mutation mode="SPLIT"></mutation>
+                                      <field name="MODE">SPLIT</field>
+                                      <value name="INPUT">
+                                        <block type="variables_get" id="sotCyqUt]4(=iDQ.hmwc">
+                                          <field name="VAR" id="Tm)`[0Xbz`sr0?Lyhj?u">frames_text</field>
+                                        </block>
+                                      </value>
+                                      <value name="DELIM">
+                                        <block type="text" id="d4*6`*6HSsj^d?vP0HG!">
+                                          <field name="TEXT">,</field>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="whenClicked" id=";$h`.MW?T49,^m%?m!^4" inline="false">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                                      <field name="X_RAY">FALSE</field>
+                                      <field name="DOUBLE_CLICK">FALSE</field>
+                                      <field name="LEFT_BUTTON">TRUE</field>
+                                      <field name="MIDDLE_BUTTON">TRUE</field>
+                                      <field name="RIGHT_BUTTON">TRUE</field>
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="d#xU|`h{~S4Gb{|Iz;d:">
+                                          <field name="FIELDNAME">bg_big</field>
+                                        </shadow>
+                                        <block type="allObjectList" id="$UZIewKF;4:(C[[V$K!["></block>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="variables_set" id=":.|3{xfX)}NRIop0dK2T">
+                                          <field name="VAR" id="s?T*~KO1~.qVcg6d~RN2">transition</field>
+                                          <value name="VALUE">
+                                            <block type="math_number" id="-xKtby{ZnBTk*)F(yy`)">
+                                              <field name="NUM">1</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="console.log" id="1oq:/^Kj-Y;t,3#N4*:%">
+                                          <value name="VALUE">
+                                            <shadow type="text" id="6tKUv2lIdIy{|I(ax~uc">
+                                              <field name="TEXT">Hello, Verge!</field>
+                                            </shadow>
+                                            <block type="variables_get" id="@_,+#j?hw5jP7M_jn3v(">
+                                              <field name="VAR" id="Mhi6#SYW$=;ROWtc2NP9">frames</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_callnoreturn" id="4a]D.kR93)oM,w2s6:?0" x="404" y="942">
+      <mutation name="init"></mutation>
+      <next>
+        <block type="everyFrame" id="JD6;$1sE)y1O:a0vp^=;">
+          <statement name="DO">
+            <block type="controls_if" id=")n5;-iO48=h#q=W7EAH$">
+              <value name="IF0">
+                <block type="logic_compare" id="%B{`IJLnx.pOU1fUxApA">
+                  <field name="OP">EQ</field>
+                  <value name="A">
+                    <block type="variables_get" id="UD{aSh5E_=*ZTVk~KLF+">
+                      <field name="VAR" id="s?T*~KO1~.qVcg6d~RN2">transition</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="math_number" id="4?/+59[AIsmjR1vl@n3M">
+                      <field name="NUM">1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <statement name="DO0">
+                <block type="setAnimationFrame" id="cd0;g#%mKk8O5?]puhXv">
+                  <value name="VALUE">
+                    <shadow type="animationList" id=";fnb~}g11qQW|(|bo==B">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="variables_get" id="!iEYRj)3y5@5$5H5A_*S">
+                      <field name="VAR" id="GF%Ia5vq#=bk-u0:,OqQ">coins</field>
+                    </block>
+                  </value>
+                  <value name="FROM">
+                    <shadow type="math_number" id="TlZw0yKU/=91p#hKS@Qb">
+                      <field name="NUM">0</field>
+                    </shadow>
+                    <block type="variables_get" id="rU@uPb~/DL^vVX/S+8o*">
+                      <field name="VAR" id="Xbba091jAVYIOJJ6(+u_">time</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="setAnimationFrame" id="c/5s,i;-?MVEUui*x7[N">
+                      <value name="VALUE">
+                        <shadow type="animationList" id=";fnb~}g11qQW|(|bo==B">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="variables_get" id="n+5.x|X4/?Qxq`UX85u6">
+                          <field name="VAR" id="A+x;Oi:9wB|o6!+RSm6r">transition_list</field>
+                        </block>
+                      </value>
+                      <value name="FROM">
+                        <shadow type="math_number" id="TlZw0yKU/=91p#hKS@Qb">
+                          <field name="NUM">0</field>
+                        </shadow>
+                        <block type="variables_get" id="LkMpFg(I,#aReZ5o{:0~">
+                          <field name="VAR" id="Xbba091jAVYIOJJ6(+u_">time</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="variables_set" id="7@YOp-,H#|4*O1^JqZ|`">
+                          <field name="VAR" id="Xbba091jAVYIOJJ6(+u_">time</field>
+                          <value name="VALUE">
+                            <block type="math_arithmetic" id="IlX5n3;J^[jLexWfC#pu">
+                              <field name="OP">ADD</field>
+                              <value name="A">
+                                <shadow type="math_number" id="?8O7YQ+GvP5sdLOoG{ey">
+                                  <field name="NUM">2</field>
+                                </shadow>
+                                <block type="variables_get" id="qtAOa+dAR5nW}u%:bG2X">
+                                  <field name="VAR" id="Xbba091jAVYIOJJ6(+u_">time</field>
+                                </block>
+                              </value>
+                              <value name="B">
+                                <shadow type="math_number" id="_sj[~-PjDA:%0f@}rHcZ">
+                                  <field name="NUM">1</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="controls_if" id="bFRu+YPnYYaQyr2$RH{d">
+                              <value name="IF0">
+                                <block type="logic_compare" id=",?KP(T;Ijl^McWq}mhQf">
+                                  <field name="OP">EQ</field>
+                                  <value name="A">
+                                    <block type="variables_get" id="9d.l#cXZ/%gRR4F1]rj$">
+                                      <field name="VAR" id="Xbba091jAVYIOJJ6(+u_">time</field>
+                                    </block>
+                                  </value>
+                                  <value name="B">
+                                    <block type="lists_getIndex" id="iO7XT6,n{?zaN^FAzsS+">
+                                      <mutation statement="false" at="true"></mutation>
+                                      <field name="MODE">GET</field>
+                                      <field name="WHERE">FROM_START</field>
+                                      <value name="VALUE">
+                                        <block type="variables_get" id="VQ;(}A:`VCa[K%VF8c;K">
+                                          <field name="VAR" id="Mhi6#SYW$=;ROWtc2NP9">frames</field>
+                                        </block>
+                                      </value>
+                                      <value name="AT">
+                                        <block type="math_arithmetic" id="?$[AQX%vOeB6WJ@(u,R5">
+                                          <field name="OP">ADD</field>
+                                          <value name="A">
+                                            <shadow type="math_number" id="g%64mv7)MuxJjK2(GEZ7">
+                                              <field name="NUM">2</field>
+                                            </shadow>
+                                            <block type="variables_get" id="fw`p2bYYbXVuARsS6tZ=">
+                                              <field name="VAR" id="4TX=iA]u=)l@FY@7(cb%">step</field>
+                                            </block>
+                                          </value>
+                                          <value name="B">
+                                            <shadow type="math_number" id="RMecFJ{+etKfX$2@jv{:">
+                                              <field name="NUM">2</field>
+                                            </shadow>
+                                            <block type="math_number" id="-H/LH~*6kd$C;mY8-Dqm">
+                                              <field name="NUM">1</field>
+                                            </block>
+                                          </value>
+                                        </block>
+                                      </value>
+                                    </block>
+                                  </value>
+                                </block>
+                              </value>
+                              <statement name="DO0">
+                                <block type="console.log" id="Hm~Qohbk7D}=n/%4=NZ?">
+                                  <value name="VALUE">
+                                    <shadow type="text" id="F~KnZQLYLG6]o@ZEtG%I">
+                                      <field name="TEXT">now</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="console.log" id="[z5#S=tgB:zb:|T1b*Jh">
+                                      <value name="VALUE">
+                                        <shadow type="text" id="DzYPXzePQ]LcSZxv:e:U">
+                                          <field name="TEXT">now</field>
+                                        </shadow>
+                                        <block type="variables_get" id=":#w1LATA{as$l;BO^.:i">
+                                          <field name="VAR" id="4TX=iA]u=)l@FY@7(cb%">step</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="variables_set" id="_gs=`qiV@4P1GZRN-~ip">
+                                          <field name="VAR" id="s?T*~KO1~.qVcg6d~RN2">transition</field>
+                                          <value name="VALUE">
+                                            <block type="math_number" id="#GSyBwn:XG|{hW8.#q*{">
+                                              <field name="NUM">0</field>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="variables_set" id="Ku-zVyojOE]xI9$GUcS4">
+                                              <field name="VAR" id="4TX=iA]u=)l@FY@7(cb%">step</field>
+                                              <value name="VALUE">
+                                                <block type="math_arithmetic" id=":AUtt#~#20l9M2cE2,|u">
+                                                  <field name="OP">ADD</field>
+                                                  <value name="A">
+                                                    <shadow type="math_number" id="g%64mv7)MuxJjK2(GEZ7">
+                                                      <field name="NUM">2</field>
+                                                    </shadow>
+                                                    <block type="variables_get" id="luAG2~XS!=s.C5;_[Kqv">
+                                                      <field name="VAR" id="4TX=iA]u=)l@FY@7(cb%">step</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="B">
+                                                    <shadow type="math_number" id="RMecFJ{+etKfX$2@jv{:">
+                                                      <field name="NUM">2</field>
+                                                    </shadow>
+                                                    <block type="math_number" id="%14-=VFoS7wg,m=M17M4">
+                                                      <field name="NUM">1</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="#i=+.(GiNdnTt]LzZD0Y" x="510" y="1470">
+      <field name="VAR" id="A+x;Oi:9wB|o6!+RSm6r">transition_list</field>
+      <value name="VALUE">
+        <block type="lists_create_with" id="Gry+gGk!ATi#{ckIJNcy">
+          <mutation items="25"></mutation>
+          <value name="ADD0">
+            <block type="objectList" id="5}+9cC87ZJk2M{A+o{Hb">
+              <field name="FIELDNAME">logo_center</field>
+            </block>
+          </value>
+          <value name="ADD1">
+            <block type="objectList" id="o[|.AVa6kg5ej.K(HZ0v">
+              <field name="FIELDNAME">crystall.001</field>
+            </block>
+          </value>
+          <value name="ADD2">
+            <block type="objectList" id="I(9|Ny^`4HdKM47opoT.">
+              <field name="FIELDNAME">data_center</field>
+            </block>
+          </value>
+          <value name="ADD3">
+            <block type="objectList" id="EkYM?_}v`Q$4kh+Gli)[">
+              <field name="FIELDNAME">data_center</field>
+            </block>
+          </value>
+          <value name="ADD4">
+            <block type="objectList" id="[/9inD^WBX$1bK1Y(x@m">
+              <field name="FIELDNAME">Armature</field>
+            </block>
+          </value>
+          <value name="ADD5">
+            <block type="objectList" id="qRS;3A_:,w,$|4Rcx6?C">
+              <field name="FIELDNAME">Armature.001</field>
+            </block>
+          </value>
+          <value name="ADD6">
+            <block type="objectList" id="d]@StXvW?}9kj}RRujM+">
+              <field name="FIELDNAME">Armature.002</field>
+            </block>
+          </value>
+          <value name="ADD7">
+            <block type="objectList" id="I!5h$wjFHb]C%b:7a|C=">
+              <field name="FIELDNAME">cube_connect_1</field>
+            </block>
+          </value>
+          <value name="ADD8">
+            <block type="objectList" id="EFFcsa?[_,ri(5ioeQQ-">
+              <field name="FIELDNAME">cube_connect_2</field>
+            </block>
+          </value>
+          <value name="ADD9">
+            <block type="objectList" id="{~o3WVp.^|.Pr3:JUCDO">
+              <field name="FIELDNAME">cube_connect_3</field>
+            </block>
+          </value>
+          <value name="ADD10">
+            <block type="objectList" id="63uSDAaV1u2L?V$VFB@a">
+              <field name="FIELDNAME">arm</field>
+            </block>
+          </value>
+          <value name="ADD11">
+            <block type="objectList" id="P{MY%)K`nVN.deXFaevQ">
+              <field name="FIELDNAME">hand</field>
+            </block>
+          </value>
+          <value name="ADD12">
+            <block type="objectList" id="U*~%zS3c`maiSBC%mB#b">
+              <field name="FIELDNAME">mobile</field>
+            </block>
+          </value>
+          <value name="ADD13">
+            <block type="objectList" id="jL,y3g9X:BW16w58`vOw">
+              <field name="FIELDNAME">main_circle with cubes</field>
+            </block>
+          </value>
+          <value name="ADD14">
+            <block type="objectList" id=".3H7L;YQ%fRrQE+r!k;q">
+              <field name="FIELDNAME">connections</field>
+            </block>
+          </value>
+          <value name="ADD15">
+            <block type="objectList" id="y!pSOy1+dGfUkXaMBGE.">
+              <field name="FIELDNAME">2_only_cube_1</field>
+            </block>
+          </value>
+          <value name="ADD16">
+            <block type="objectList" id="_@qKIDquqlrg?V?[u)AE">
+              <field name="FIELDNAME">2_only_cube_2</field>
+            </block>
+          </value>
+          <value name="ADD17">
+            <block type="objectList" id="TW20v@9C]y5wDx*;Yzbx">
+              <field name="FIELDNAME">2_only_cube_3</field>
+            </block>
+          </value>
+          <value name="ADD18">
+            <block type="objectList" id="Kx6Q0.D5V0?[c;1WKh0g">
+              <field name="FIELDNAME">2_only_cube_4</field>
+            </block>
+          </value>
+          <value name="ADD19">
+            <block type="objectList" id="x,15o`~aGp6(xE~@4CBI">
+              <field name="FIELDNAME">human_01</field>
+            </block>
+          </value>
+          <value name="ADD20">
+            <block type="objectList" id="H7d?BqncgXv3I!ws8]oT">
+              <field name="FIELDNAME">human_02</field>
+            </block>
+          </value>
+          <value name="ADD21">
+            <block type="objectList" id="~X?#}J6T`|wqWKUK}lUG">
+              <field name="FIELDNAME">human_03</field>
+            </block>
+          </value>
+          <value name="ADD22">
+            <block type="objectList" id="i(aNqrc{wNBGzqN.UliM">
+              <field name="FIELDNAME">universe_pic</field>
+            </block>
+          </value>
+          <value name="ADD23">
+            <block type="objectList" id="#M*EXg9j1%4NdC7jitoW">
+              <field name="FIELDNAME">circle_bg</field>
+            </block>
+          </value>
+          <value name="ADD24">
+            <block type="objectList" id="O|2qm=9QMXnBF2[4$Mj2">
+              <field name="FIELDNAME">earth pivot</field>
+            </block>
+          </value>
+        </block>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="37" viewport-w="768" viewport-h="438.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
